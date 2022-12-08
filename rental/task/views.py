@@ -9,11 +9,8 @@ import sqlite3
 
 def reservation(request):
 
-    # Create sqlite database and cursor
-    conn = sqlite3.connect('db.sqlite3')
-
     # Conect with sqlite
-    conn = sqlite3.connect('db.sqlite3')
+    conn = sqlite3.connect('rental/db.sqlite3')
 
     #Read data and transform in DataFrame
     df = pd.read_sql('SELECT * from reservation',conn)
