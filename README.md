@@ -27,7 +27,6 @@
 
 
 |Rental_name|ID      |Checkin    |Checkout  |Previous reservation, ID|
-|--------------------------------------------------------------------|
 |rental-1   |Res-1 ID| 2022-01-01|2022-01-13| -                      |
 |rental-1   |Res-2 ID| 2022-01-20|2022-02-10| Res-1 ID               |
 |rental-1   |Res-3 ID| 2022-02-20|2022-03-10| Res-2 ID               |
